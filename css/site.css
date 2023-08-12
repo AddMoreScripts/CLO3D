@@ -1,0 +1,21 @@
+body {
+  background: #fff;
+  font-family: 'Manrope', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.2;
+  color: #000;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: stretch;
+  justify-content: flex-start;
+  min-height: 100vh;
+}
+
+.jbm {
+  font-family: 'JetBrains Mono', monospace;
+}
+
+.pagewrap {
+  flex-grow: 1;
+}
