@@ -677,6 +677,8 @@
   .closummary__textpad{
     font-size: 16px;
     padding-bottom: 20px;
+    padding-left: 20px;
+    padding-top: 0;
   }
   .closummary__more{
     height: 300px;
