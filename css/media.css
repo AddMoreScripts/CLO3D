@@ -472,11 +472,13 @@
   .clob2__vidowrap{
     margin-top: 30px;
   }
-  .clob2__photo{
+  .clob2__photo,
+  .clob2__video{
     width: 320px;
-    height: 264px;
     max-width: 100%;
     object-fit: cover;
+    margin-left: auto;
+    margin-right: auto;
   }
   .clob2__right{
     width: 100%;
@@ -599,6 +601,9 @@
     padding-left: 116px;
     grid-gap: 10px;
     min-height: 96px;
+  }
+  .clob5botitem:not(:last-child)::after{
+    display: none;
   }
   .clob5botitem__picwrap{
     width: 96px;
@@ -776,6 +781,9 @@
   }
   .promoform__btn{
     width: 100%;
+  }
+  .cloreviews__wrap{
+    margin-top: 20px;
   }
   .cloreviews__slider{
     overflow: visible;

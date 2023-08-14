@@ -75,6 +75,7 @@ a:hover{
   margin-right: auto;
   margin-left: auto;
   position: relative;
+  max-width: 500px;
 }
 @media (min-width:345px) {
   .container{

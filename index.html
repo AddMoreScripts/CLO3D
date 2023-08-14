@@ -10,7 +10,7 @@
   <meta property="og:title" content="Talentsy CLO3D" />
   <meta property="og:description" content="Научим создавать реальную и виртуальную одежду в CLO3D за 25 уроков" />
 
-  <link rel="shortcut icon" href="./img/favicon.png" type="image/png">
+  <link rel="icon" href="./img/favicon.png" type="image/png">
   <link rel="stylesheet" href="./css/reset.css">
   <link rel="stylesheet" href="./css/hystmodal.min.css">
   <link rel="stylesheet" href="./css/swiper-bundle.min.css">
@@ -70,7 +70,7 @@
             </ul>
             <div class="clob1__line clob1__line--mob"></div>
             <div class="clob1__action flexi">
-              <a href="#" class="clob1__button clobtn">Записаться на курс</a>
+              <a href="#orderform" class="clob1__button clobtn" data-scrollto>Записаться на курс</a>
               <div class="clob1__saleblock flexi">
                 <div class="clob1__saleproc">
                   <img src="./img/b1-sale.png" alt="">
@@ -93,7 +93,9 @@
           <div class="clob2__left">
             <h2 class="h2">о профессии</h2>
             <div class="clob2__vidowrap">
-              <img src="./img/b2-left.png" alt="" class="clob2__photo">
+              <video class="clob2__video" preload="auto" playsinline="" autoplay="" loop="" muted="">
+                <source src="./img/b2-video.webm" type='video/webm; codecs="vp8, vorbis"'>
+              </video>
             </div>
           </div>
           <div class="clob2__right">
@@ -231,7 +233,7 @@
           </div>
           <div class="cloform__line"></div>
 
-          <form action="#" class="cloformbox" method="post">
+          <form action="#" class="cloformbox js-ajaxform" method="post">
             <div class="cloformbox__title">Заполните форму, и <b>получите запись урока</b></div>
             <div class="cloformbox__grid">
               <div class="cloformbox__inpwrap">
@@ -336,7 +338,7 @@
             коммерческие заказы</h2>
           <div class="cloform__line"></div>
 
-          <form action="#" class="cloformbox" method="post">
+          <form action="#" class="cloformbox js-ajaxform" method="post">
             <div class="cloformbox__title">Заполните форму, чтобы <b>получить консультацию специалиста</b></div>
             <div class="cloformbox__grid">
               <div class="cloformbox__inpwrap">
@@ -556,7 +558,7 @@
           <h2 class="cloform2__h2 h2">ПОЛУЧИТЬ <span style="color:#368048">ПОЛНУЮ <br>ПРОГРАММУ КУРСА</span></h2>
           <div class="cloform__line"></div>
 
-          <form action="#" class="cloformbox" method="post">
+          <form action="#" class="cloformbox js-ajaxform" method="post">
             <div class="cloformbox__title">Заполните форму, чтобы <b>получить полную программу курса</b></div>
             <div class="cloformbox__grid">
               <div class="cloformbox__inpwrap">
@@ -670,7 +672,7 @@
           </div>
           <div class="cloform__line"></div>
 
-          <form action="#" class="cloformbox" method="post">
+          <form action="#" class="cloformbox js-ajaxform" method="post">
             <div class="cloformbox__title">Отправьте заявку, <b>чтобы забронировать место</b></div>
             <div class="cloformbox__grid">
               <div class="cloformbox__inpwrap">
@@ -696,7 +698,7 @@
                   <input type="text" name="promocode" placeholder="Введите промокод" class="">
                   <button class="promoform__clearer" type="button"></button>
                 </div>
-                <button class="promoform__btn" type="button">
+                <button class="promoform__btn js-promo-submit" type="button">
                   <span>Активировать</span>
                   <img src="./img/promo-arrow.svg" alt="" class="promoform__arrow">
                 </button>
@@ -719,60 +721,12 @@
     </section><!-- //cloform4 -->
 
 
-
     <section class="cloreviews js-clo-reviews">
       <div class="container">
         <h2 class="h2">ВОТ ЧТО <span style="color:#368048">ГОВОРЯТ СТУДЕНТЫ</span> <br>ОНЛАЙН УНИВЕРСИТЕТА TALENTSY</h2>
-        <div class="cloreviews__slider swiper">
-          <div class="swiper-wrapper">
-            <div class="swiper-slide">
-              <a href="#" class="cloreview square">
-                <img src="./img/review.jpg" alt="" class="cloreview__pic square__img">
-                <span class="cloreview__play"></span>
-                <div class="cloreview__name">Диана Латирулина</div>
-              </a>
-            </div>
-            <div class="swiper-slide">
-              <a href="#" class="cloreview square">
-                <img src="./img/review.jpg" alt="" class="cloreview__pic square__img">
-                <span class="cloreview__play"></span>
-                <div class="cloreview__name">Диана Латирулина</div>
-              </a>
-            </div>
-            <div class="swiper-slide">
-              <a href="#" class="cloreview square">
-                <img src="./img/review.jpg" alt="" class="cloreview__pic square__img">
-                <span class="cloreview__play"></span>
-                <div class="cloreview__name">Диана Латирулина</div>
-              </a>
-            </div>
-            <div class="swiper-slide">
-              <a href="#" class="cloreview square">
-                <img src="./img/review.jpg" alt="" class="cloreview__pic square__img">
-                <span class="cloreview__play"></span>
-                <div class="cloreview__name">Диана Латирулина</div>
-              </a>
-            </div>
-            <div class="swiper-slide">
-              <a href="#" class="cloreview square">
-                <img src="./img/review.jpg" alt="" class="cloreview__pic square__img">
-                <span class="cloreview__play"></span>
-                <div class="cloreview__name">Диана Латирулина</div>
-              </a>
-            </div>
-            <div class="swiper-slide">
-              <a href="#" class="cloreview square">
-                <img src="./img/review.jpg" alt="" class="cloreview__pic square__img">
-                <span class="cloreview__play"></span>
-                <div class="cloreview__name">Диана Латирулина</div>
-              </a>
-            </div>
-          </div>
-        </div>
-        <div class="closlictrl flexi">
-          <button class="closlictrlbutt closlictrlbutt--prev"><img src="./img/b3-arrow.svg" alt=""></button>
-          <div class="closlictrl__pag"></div>
-          <button class="closlictrlbutt closlictrlbutt--next"><img src="./img/b3-arrow.svg" alt=""></button>
+
+        <div class="cloreviews__wrap">
+          <div class="getreview-widget" data-widget-id="78K6YVYSqo4uZ4ew"></div>
         </div>
       </div>
     </section><!-- //cloreviews -->
@@ -807,7 +761,7 @@
     </section><!-- //cloreasons -->
 
     <section class="cloform cloform5">
-      <div class="cloform__bg">
+      <div class="cloform__bg" id="orderform">
         <div class="container">
           <div class="cloform5__head">
             <h2 class="h2">стоимость обучения</h2>
@@ -837,7 +791,7 @@
 
           </div>
 
-          <form action="#" class="cloformbox" method="post">
+          <form action="#" class="cloformbox js-ajaxform" method="post">
             <div class="cloformbox__title">Отправьте заявку, <b>чтобы забронировать место</b></div>
             <div class="cloformbox__grid">
               <div class="cloformbox__inpwrap">
@@ -853,7 +807,7 @@
                 <button type="submit" class="clobtn">Забронировать место</button>
               </div>
             </div>
-            <div class="promoform state-open">
+            <div class="promoform">
               <div class="promoform__openbutton promoform__btn">
                 <span>У меня есть промокод</span>
                 <img src="./img/promo-arrow.svg" alt="" class="promoform__arrow">
@@ -863,7 +817,7 @@
                   <input type="text" name="promocode" placeholder="Введите промокод" class="">
                   <button class="promoform__clearer" type="button"></button>
                 </div>
-                <button class="promoform__btn" type="button">
+                <button class="promoform__btn js-promo-submit" type="button">
                   <span>Активировать</span>
                   <img src="./img/promo-arrow.svg" alt="" class="promoform__arrow">
                 </button>
@@ -1053,7 +1007,7 @@
           <br>выбрать, оставьте свой номер: мы позвоним, чтобы
           <br>ответить на все ваши вопросы
         </div>
-        <form action="#" class="cloformbox cloformbox--black" method="post">
+        <form action="#" class="cloformbox cloformbox--black js-ajaxform" method="post">
           <div class="cloformbox__grid">
             <div class="cloformbox__inpwrap">
               <input type="text" name="name" placeholder="Имя" required>
@@ -1210,7 +1164,9 @@
   <script src="./js/hystmodal.min.js"></script>
   <script src="./js/swiper-bundle.min.js"></script>
   <script src="./js/phonemasks.js?ver=4"></script>
-  <script src="./js/main.js?ver=4"></script>
+  <script src="./js/main.js?ver=1"></script>
+  <script src="./js/forms.js?ver=1"></script>
+  <script src="https://app.getreview.io/tags/mugUGuLoIpZqq1qD/sdk.js" async></script>
 </body>
 
 </html>
