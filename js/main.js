@@ -29,10 +29,27 @@ function initScrollAnimation() {
 initScrollAnimation();
 
 
-const myModalEngine = new HystModal({
-  linkAttributeName: "data-hystmodal",
-});
+// const myModalEngine = new HystModal({
+//   linkAttributeName: "data-hystmodal",
+//   catchFocus: false,
+// });
 
+
+Fancybox.bind('[data-fancybox]', {
+  Toolbar: {
+    display: {
+      left: [],
+      middle: [],
+      right: ['close'],
+    },
+  },
+  Image: {
+    zoom: false,
+  },
+  placeFocusBack: false,
+  autoFocus: false,
+  preload: 0,
+});
 
 
 function initSliders() {
@@ -62,6 +79,7 @@ function initSliders() {
     loop: false,
     spaceBetween: 20,
     slidesPerView: 'auto',
+    lazyPreloadPrevNext: 1,
     navigation: {
       prevEl: ".js-closlider2 .closlictrlbutt--prev",
       nextEl: ".js-closlider2 .closlictrlbutt--next",

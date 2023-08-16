@@ -548,6 +548,13 @@ body {
   width: 100%;
   height: auto;
 }
+.cloform1__picwrap video{
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 16px;
+  overflow: hidden;
+}
 .cloform1__picwrap img{
   display: block;
   width: 100%;
