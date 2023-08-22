@@ -59,7 +59,7 @@ body {
   display: block;
   width: 273px;
   height: 103px;
-  background: url(../img/hdr/line-vector.svg) left bottom no-repeat;
+  background: url(../img/clo3d/hdr/line-vector.svg) left bottom no-repeat;
   background-size: contain;
   pointer-events: none;
 }
@@ -207,7 +207,7 @@ body {
 }
 .clob1__dl li{
   padding-left: 38px;
-  background: url(../img/b1-check.png) left top no-repeat;
+  background: url(../img/clo3d/b1-check.png) left top no-repeat;
   background-size: 24px;
   margin-bottom: 25px;
 }
@@ -419,7 +419,7 @@ body {
   margin-bottom: var(--clospace);
 }
 .clocourseslider__hdr {
-  background: url(../img/b3-headbg.svg) right center no-repeat;
+  background: url(../img/clo3d/b3-headbg.svg) right center no-repeat;
 }
 .clocourseslider__hdr .h2{
   background-color: #ededed;
@@ -758,7 +758,7 @@ body {
   top: -32px;
   width: 64px;
   height: 64px;
-  background: url(../img/b6-star.svg) 50% 50% no-repeat;
+  background: url(../img/clo3d/b6-star.svg) 50% 50% no-repeat;
   background-size: contain;
 }
 .cloform2__h2 {
@@ -1242,7 +1242,7 @@ body {
   height: 50px;
   z-index: 10;
   cursor: pointer;
-  background-image: url(../img/promo-error.svg);
+  background-image: url(../img/clo3d/promo-error.svg);
   background-repeat: no-repeat;
   background-position: calc(100% - 16px) 50%;
   background-size: 16px;
